@@ -77,3 +77,70 @@
 	min-height: 150px;
 	background: url(AjaxLoader.gif) no-repeat center center
 }
+
+/* =========================
+   BANNER WHATSAPP
+   ========================= */
+
+#whatsapp-banner {
+  padding: 50px 0;
+}
+
+.whatsapp-banner-content {
+  background-color: #25D366 !important;
+  padding: 50px 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: #ffffff !important;
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.25);
+}
+
+.whatsapp-banner-content h2 {
+  color: #ffffff !important;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.whatsapp-banner-content p {
+  color: #ffffff !important;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.whatsapp-icon {
+  color: #ffffff !important;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.whatsapp-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background-color: #ffffff !important;
+  color: #25D366 !important;
+
+  padding: 14px 30px;
+  border-radius: 50px;
+
+  font-size: 17px;
+  font-weight: 700;
+
+  text-decoration: none !important;
+
+  transition: all 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128C7E !important;
+  color: #ffffff !important;
+  transform: translateY(-3px);
+}
+
+.whatsapp-btn i {
+  color: inherit !important;
+  font-size: 22px;
+}
